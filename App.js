@@ -1,25 +1,14 @@
 import React from 'react';
-import {SafeAreaView, View, Text, StyleSheet} from 'react-native';
+import {SafeAreaView} from 'react-native';
+import Login from './src/pages/Login';
+import { globalStyles } from './src/assets/styles/global';
 
-function App() {
+const App = () => {
   return (
-    <SafeAreaView style={styles.wrapper}> 
-      <View style={styles.container}>
-        <Text> Initial Commit </Text>
-      </View>
+    <SafeAreaView style={globalStyles.container}> 
+      <Login></Login>
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  wrapper:{
-    flex:1
-  },
-  container:{
-    backgroundColor: 'red',
-    flex: 1,
-    alignItems: 'center' 
-  }
-})
 
 export default App;

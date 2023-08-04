@@ -15,6 +15,11 @@
 		7699B88040F8A987B510C191 /* libPods-cabBookingApp-cabBookingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-cabBookingApp-cabBookingAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D74CDFDB2A79269100CBC2A2 /* react-native-vector-icons in Resources */ = {isa = PBXBuildFile; fileRef = D74CDFDA2A79269100CBC2A2 /* react-native-vector-icons */; };
+		BD91CEE504EF48A89F6F875B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29C77D7A1384527878FF16C /* Roboto-Black.ttf */; };
+		A82C618EE78642148D3E80B6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0F81FA693C4DCC82367C84 /* Roboto-Bold.ttf */; };
+		02011766628E44399E6D2051 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D0130876DBC4A3CB6FDB0E1 /* Roboto-BoldItalic.ttf */; };
+		21D09FCB548742DCB0B3CCE7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F2834ECAEE494EBFB08F54 /* Roboto-Regular.ttf */; };
+		B9E5B24F09A240D0AAFA42D2 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB4AE9BBB7C14FA7A6DEEF89 /* Roboto-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-cabBookingApp-cabBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cabBookingApp-cabBookingAppTests.release.xcconfig"; path = "Target Support Files/Pods-cabBookingApp-cabBookingAppTests/Pods-cabBookingApp-cabBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		D74CDFDA2A79269100CBC2A2 /* react-native-vector-icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "react-native-vector-icons"; path = "../../../../Downloads/New folder/app-expo/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B29C77D7A1384527878FF16C /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D0F81FA693C4DCC82367C84 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D0130876DBC4A3CB6FDB0E1 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		43F2834ECAEE494EBFB08F54 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB4AE9BBB7C14FA7A6DEEF89 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				2BAD4FEA6FB445F69B9EF837 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -150,6 +161,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		2BAD4FEA6FB445F69B9EF837 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				B29C77D7A1384527878FF16C /* Roboto-Black.ttf */,
+				0D0F81FA693C4DCC82367C84 /* Roboto-Bold.ttf */,
+				8D0130876DBC4A3CB6FDB0E1 /* Roboto-BoldItalic.ttf */,
+				43F2834ECAEE494EBFB08F54 /* Roboto-Regular.ttf */,
+				BB4AE9BBB7C14FA7A6DEEF89 /* Roboto-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -248,6 +272,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				D74CDFDB2A79269100CBC2A2 /* react-native-vector-icons in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				BD91CEE504EF48A89F6F875B /* Roboto-Black.ttf in Resources */,
+				A82C618EE78642148D3E80B6 /* Roboto-Bold.ttf in Resources */,
+				02011766628E44399E6D2051 /* Roboto-BoldItalic.ttf in Resources */,
+				21D09FCB548742DCB0B3CCE7 /* Roboto-Regular.ttf in Resources */,
+				B9E5B24F09A240D0AAFA42D2 /* Roboto-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
