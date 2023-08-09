@@ -1,13 +1,13 @@
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import Login from './src/pages/Login';
-import { globalStyles } from './src/assets/styles/global';
+import AppNavigation from './src/navigation/AppNavigation';
+import Toast from 'react-native-toast-message';
 
 const App = () => {
   return (
-    <SafeAreaView style={globalStyles.container}> 
-      <Login></Login>
-    </SafeAreaView>
+    <>
+      <AppNavigation/>
+      <Toast />
+    </>
   );
 }
 
